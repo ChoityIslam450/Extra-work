@@ -1,0 +1,190 @@
+*{
+   margin: 0;
+   padding: 0;
+  }
+  
+  h1,h2,h3,h4,h5,h6,p,ul{
+      margin: 0;
+   padding: 0;
+      
+  }
+  
+  
+  
+  header{
+   
+  
+  
+  }
+  .header_content{
+   background-image: url(../images/use_can_first.webp);
+   min-height: 100vh;
+   background-size: cover;
+  background-position: center;
+  
+  }
+  
+  .logo{
+   
+width: 20%;
+  }
+  .header_content img{
+   width: 70px;
+   height: 60px;
+  }
+  
+  
+  .header_menu{
+
+width: 80%;
+
+margin: auto;
+
+display: flex;
+
+justify-content: space-between;
+
+}
+
+ 
+  .header_menu ul{
+  
+width: 33%;
+  
+list-style: none;
+  
+display: flex;
+  
+justify-content: space-between;
+  
+font-size: 20px;
+  
+font-family: lato;
+  }
+  .header_menu ul li{
+  
+  }
+  .header_menu ul li a{
+  
+text-decoration: none;
+  
+color: #ffff;
+  }
+  .banner_content{
+     
+text-align: center;
+     
+margin-top: 168px;
+  }
+  .banner_content h3{
+  
+font-size: 40px;
+  
+font-family: lato;
+  
+color: #fff;
+  }
+  .banner_content h1{
+  
+font-size: 90px;
+  
+font-family: lato;
+  
+color: #ffff;
+  
+margin-bottom: 40px;
+  }
+  .banner_content p{
+  
+margin-bottom: 56px;
+  
+font-size: 20px;
+  
+font-family: lato;
+  
+color: #fff;
+  }
+  .banner_content button{
+  transition: .5s all ease-in-out;
+background-color: transparent;
+  
+color: #ffff;
+  
+border: none;
+  
+border: 1px solid #eae40f;
+  
+padding: 16px 42px;
+  
+font-size: 18px;
+  
+border-radius: 6px;
+  }
+  
+  .banner_content button:hover{
+   background-color: #eae40f;
+
+  }
+  
+  .simple{
+
+padding: 50px 0;
+
+background-color: #f6f9f9;
+}
+.simple_content{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 43px;
+}
+  .simple_content h1{
+   
+width: 80%;
+   
+margin: auto;
+   
+text-align: center;
+  }
+  
+.simple_content span{
+
+display: block;
+
+height: 2px;
+
+width: 100%;
+
+background: #eae40f;
+
+margin-top: 22px;
+
+}
+  
+  .gallery{
+
+display: flex;
+
+justify-content: space-between;
+
+margin-top: 187px;
+
+}
+
+.gallery_item{
+
+width: 30%;
+
+margin-left: 36px;
+
+margin-right: 36px;
+}
+
+.gallery_item img{
+   
+width: 100%;
+   
+display: block;
+   
+height: 648px;
+}
+
